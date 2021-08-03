@@ -24,7 +24,7 @@ public class Ex6 {
 		y2 = entrada.nextDouble();
 		
 		D = Math.sqrt(((x2-x1) * (x2 -x1)) + ((y2-y1) * (y2-y1)));
-		System.out.printf("A distancia entre eles é %.2f\n", D);
+		System.out.printf("A distancia entre eles é %.3f\n", D);
 	}
 
 }
