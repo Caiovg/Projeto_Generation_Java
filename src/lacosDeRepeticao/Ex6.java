@@ -24,8 +24,12 @@ public class Ex6 {
 			}
 		}while(num!=0);
 		
-		media=soma/cont;
-		System.out.printf("\nA media dos numeros multiplos de 3 e: %.2f", media);
+		if(cont!=0) {
+			media=soma/cont;
+			System.out.printf("\nA media dos numeros multiplos de 3 e: %.2f", media);
+		}else {
+			System.out.printf("\nA media dos numeros multiplos de 3 e: %.2f", media);
+		}
 	}
 
 }
