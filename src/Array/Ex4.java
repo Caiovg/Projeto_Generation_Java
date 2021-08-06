@@ -17,7 +17,7 @@ public class Ex4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int opc;
+		int opc, constante;
 		double[][] matriz = new double[2][2];
 		double[][] matriz1 = new double[2][2];
 		double[][] matrizSoma = new double[2][2];
@@ -84,6 +84,25 @@ public class Ex4 {
 					}
 					break;
 				case 3:
+					System.out.println("\nEntre com valor da constante: ");
+					constante = entrada.nextInt();
+					//Matriz1
+					System.out.println("\n1º Matriz");
+					for(int i=0; i<2; i++) {
+						for(int j=0; j<2; j++) {
+							matriz[i][j] = matriz[i][j] + constante;
+							System.out.print("["+matriz[i][j]+"]");
+						}
+						System.out.println("\n");
+					}
+					System.out.println("\n2º Matriz");
+					for(int i=0; i<2; i++) {
+						for(int j=0; j<2; j++) {
+							matriz1[i][j] = matriz1[i][j] + constante;
+							System.out.print("["+matriz1[i][j]+"]");
+						}
+						System.out.println("\n");
+					}
 					break;
 				case 4:
 					System.out.println("\n1º Matriz");
