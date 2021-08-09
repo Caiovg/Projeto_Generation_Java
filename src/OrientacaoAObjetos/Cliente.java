@@ -16,7 +16,7 @@ public class Cliente {
 	//Metodo Construtor com parametros
 	public Cliente(String nome, String email, String cpf, String telefone) {
 		super();
-		this.nome = nome;
+		this.nome = "Caio";
 		this.email = email;
 		this.cpf = cpf;
 		this.telefone = telefone;
